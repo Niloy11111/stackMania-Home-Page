@@ -31,9 +31,7 @@ body {
 
 /* headerContainer css */
 .headerContainer {
-  height: 1080px;
   background: url("/assets/bg-one.png") 0% 0% / 100px 100px repeat, #1b3936;
-  overflow: hidden;
 }
 
 /* HomeAbout css */
@@ -188,9 +186,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: relative;
-  overflow: visible;
+  margin-top: -55px;
 }
 /* borderStyle svg */
 .borderStyle svg {
@@ -204,7 +201,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   margin-top: -150px;
 }
 
