@@ -1,0 +1,891 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* font  SwitZerVariable*/
+@font-face {
+  font-family: "SwitZerVariable";
+  src: url("/Switzer_Complete/Fonts/Variable/Switzer-Variable.ttf")
+    format(truetype);
+  font-weight: 400 500 700;
+}
+/* font BoskaVariable*/
+@font-face {
+  font-family: "BoskaVariable";
+  src: url("/Boska_Complete/Fonts/TTF/Boska-Variable.ttf") format("truetype");
+  font-weight: 400 700;
+}
+/* header css start here */
+/* headerChildren */
+.headerChildren {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* headerContainer css */
+.headerContainer {
+  height: 1080px;
+  background: url("/assets/bg-one.png") 0% 0% / 100px 100px repeat, #1b3936;
+  overflow: hidden;
+}
+
+/* HomeAbout css */
+.HomeAbout {
+  display: flex;
+  gap: 54px;
+  list-style: none;
+}
+.HomeAbout li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "SwitZerVariable";
+
+  font-size: 18px;
+}
+
+/* Grindelwald css */
+.Grindelwald {
+  color: #75ff69;
+  font-family: Oranienbaum;
+  font-size: 28.523px;
+}
+/* GrindelwaldContainer css */
+.GrindelwaldContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* cabinsReserve css */
+.cabinsReserve {
+  display: flex;
+  gap: 41px;
+  list-style: none;
+}
+.cabinsReserve li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "SwitZerVariable";
+
+  font-size: 18px;
+}
+
+/* nav css */
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 81px 0px 145px;
+}
+
+/* banerImg css */
+.banerImg {
+  width: 570px;
+  height: 570px;
+}
+
+/* banerImgContainer */
+.banerImgContainer {
+  border-radius: 285px;
+  background: url("/assets/banner.png") lightgray 50% / cover no-repeat;
+  width: 570px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* circleContainer */
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+/* cosyTitle */
+.cosyTitle {
+  color: #fff;
+  text-align: center;
+  font-family: "BoskaVariable";
+  font-size: 262px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.765px;
+  text-transform: capitalize;
+  margin-right: 90px;
+  margin-top: 75px;
+}
+.cabinImage {
+  margin-top: 40px;
+  margin-left: 330px;
+}
+
+.woodsTitle {
+  color: #fff;
+  text-align: center;
+  font-family: "BoskaVariable";
+  font-size: 262px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.765px; /* 61.742% */
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+/* inTheTitle */
+.inTheTitle {
+  color: #fff;
+  font-family: "BoskaVariable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: px;
+  text-transform: capitalize;
+}
+
+/* woodsContainer */
+.woodsContainer {
+  margin-top: 39px;
+}
+
+/* bannerDescription */
+.bannerDescription {
+  color: #fff;
+  text-align: center;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  max-width: 570px;
+}
+
+/* bannerDescContainer */
+.bannerDescContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
+}
+
+/* borderStyle */
+.borderStyle {
+  width: 1188px;
+  height: 1188px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  overflow: visible;
+}
+/* borderStyle svg */
+.borderStyle svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* borderStyleContainer  */
+.borderStyleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: -150px;
+}
+
+/* ellipse css start */
+.ellipseContainer {
+  position: absolute;
+
+  top: 50%;
+}
+.ellipse29 {
+  position: absolute;
+  top: 5.5px;
+  left: 5.5px;
+}
+.playerOn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.imageContainer {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-60%, 10%);
+  width: 69px;
+  height: 69px;
+}
+
+.imgTwo {
+  position: absolute;
+  top: 5.5px;
+  left: 6px;
+}
+.playerOn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+/* header css ends here */
+
+/* main section css */
+/* ------------info section -----------  */
+/* info section css start here */
+/* arrowContainer */
+.arrowContainer {
+  position: relative;
+}
+/* .arrowContainer img */
+.arrowContainer img {
+  display: block;
+}
+.stickContainer {
+  position: absolute;
+  top: 2px;
+  left: 13px;
+}
+/* stick img */
+.stick {
+  height: 79px;
+  width: 6px;
+}
+/* arrowUp */
+.arrowUp {
+  width: 31px;
+  height: 15px;
+}
+
+/* arrowContainerParent */
+.arrowContainerParent {
+  background-color: #75ff69;
+  max-width: 203px;
+  height: 276px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* leftRightArrow */
+.leftRightArrow {
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 0 24px;
+  justify-content: center;
+  align-items: center;
+}
+/* arrowMiddle */
+.arrowMiddle {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  align-items: center;
+}
+/* infoDescription */
+.infoDescriptionContainer {
+  width: 609px;
+  margin-top: 41px;
+}
+/* infoDescription */
+.infoDescription {
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 24px;
+}
+/* textContainer */
+.textContainer {
+  display: flex;
+  gap: 12px;
+}
+/* headTitle */
+.headTitle {
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: -15px;
+}
+/* twentyTitle */
+.numberTitle {
+  color: transparent; /* Make text transparent */
+  font-family: "BoskaVariable";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  text-transform: capitalize;
+  background: url("/assets/bg-one.png") 0% 0% / 100px 100px repeat, #1b3936;
+  background-clip: text;
+}
+
+/* mTitle */
+.mTitle {
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 65px;
+  background: url("/assets/bg-one.png") 0% 0% / 100px 100px repeat, #1b3936;
+  background-clip: text;
+}
+
+/* twentyContainer */
+.twentyContainer {
+  margin-bottom: 108px;
+}
+/* minuteContainer */
+.minuteContainer {
+  margin-bottom: 108px;
+}
+
+/* infoContainer */
+.infoContainer {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 207px;
+}
+/* info section css ends here */
+
+/* ----------Image section------------ */
+/* Image section css start here */
+/* imageSectionContainer */
+.imageSectionContainer {
+  background-image: url("/assets/Image\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+}
+/* Image section css ends here */
+
+/* ------------********about section******** -----------  */
+/* about section css start here */
+/* aboutSectionContainer */
+.aboutSectionContainer {
+  background-image: url("/assets/aboutbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1700px;
+  position: relative;
+}
+
+/* aboutOne */
+.aboutOne {
+  background-image: url("/assets/aboutone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 401px;
+  height: 342px;
+  margin-top: 321px;
+  margin-left: 38px;
+}
+
+/* aboutTwo */
+.aboutTwo {
+  background-image: url("/assets/aboutone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 401px;
+  height: 526px;
+  margin-top: 76px;
+  margin-right: 61px;
+}
+/* aboutOneTwo */
+.aboutOneTwo {
+  display: flex;
+
+  justify-content: space-between;
+}
+/* aboutThree */
+.aboutThree {
+  background-image: url("/assets/aboutthree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 401px;
+  height: 531px;
+  margin-top: 285px;
+  margin-left: 149px;
+}
+
+/* aboutFour */
+.aboutFour {
+  background-image: url("/assets/aboutfour.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 401px;
+  height: 531px;
+  margin-top: 378px;
+  margin-right: 157px;
+}
+
+/* aboutThreeFour */
+.aboutThreeFour {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+/* aboutDescription */
+.aboutDescription {
+  color: #678784;
+  text-align: center;
+  font-family: "BoskaVariable";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  text-transform: capitalize;
+}
+/* aboutDescriptionContainer */
+.aboutDescriptionContainer {
+  width: 1083px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* whiteDescription */
+.whiteDescription {
+  color: #fff;
+}
+/* about section css ends here */
+
+/********** Unique Section******** */
+/* unique section css start here */
+/* uniqueSectionContainer */
+.uniqueSectionContainer {
+}
+/* uniqueTitle */
+.uniqueTitle {
+  color: #1b3936;
+  font-family: "BoskaVariable";
+  font-size: 68px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* uniqueTitleParent */
+.uniqueTitleParent {
+  margin-top: 173px;
+  margin-left: 125px;
+}
+
+/* uniqueOneContainer */
+.uniqueOneContainer {
+  background-image: url("/assets/uniqueOne.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 378px;
+  height: 505.68px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 54px;
+  padding-bottom: 39px;
+}
+
+/* uniqueTwoContainer */
+.uniqueTwoContainer {
+  background-image: url("/assets/uniqueTwo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 582px;
+  height: 778.316px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 60px;
+}
+/* uniqueThreeContainer */
+.uniqueThreeContainer {
+  background-image: url("/assets/uniqueThree.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 378px;
+  height: 505.68px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 42px;
+  padding-bottom: 54px;
+}
+
+/* uniqueImagesContainer */
+.uniqueImagesContainer {
+  margin: 148px 21px 184px 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+/* majesticTitle */
+.majesticTitle {
+  color: #f9f9f9;
+  font-family: "BoskaVariable";
+  font-size: 32px;
+  font-weight: 400;
+}
+/* cozyCabinBoth */
+.cozyCabinBoth {
+  color: #f9f9f9;
+  font-family: "BoskaVariable";
+  font-size: 68px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* cosyDescription */
+.cosyDescription {
+  color: #fff;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* cozyContainer */
+.cozyContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 46px;
+}
+
+/* ********CTA Section*************** */
+/* cta section css start here */
+/* ctaContainer */
+.ctaContainer {
+  background-image: url("/assets/aboutbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 968px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* aboutsvg for cta section background*/
+.aboutsvg {
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/aboutbg.png");
+}
+
+/* getOffTitle */
+.SignUpTitle {
+  color: #fff;
+  text-align: center;
+  font-family: "BoskaVariable";
+  font-size: 68px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* getOffSpan */
+.getOffSpan {
+  color: #75ff69;
+}
+
+/* signUpDescription */
+.signUpDescription {
+  color: #fff;
+  text-align: center;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 21px;
+}
+
+/* inputContainer */
+.inputContainer {
+  width: 396px;
+  outline: none;
+  margin-right: -30px;
+  color: #bbb;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 21px;
+}
+
+.getOffbtn {
+  width: 174px;
+  background-color: #75ff69;
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+/* getbtnContainer */
+.getbtnContainer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-top: 60px;
+}
+/* ctaContainerChildren */
+.ctaContainerChildren {
+  background-image: url("/assets/ctabg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1194px;
+  height: 704px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* cta section css ends here */
+/* ************TESTIMONIAL SECTION************/
+/* testimonial section css start here */
+/* experienceTitle */
+.experienceTitle {
+  color: #1b3936;
+  font-family: "BoskaVariable";
+  font-size: 68px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* experienceContainer */
+.experienceContainer {
+  width: 766px;
+}
+/* welcomeDescription */
+.welcomeDescription {
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 400;
+}
+/* experienceContainerParent */
+.experienceContainerParent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 35px;
+  margin: 70px 0 172px 0;
+}
+/* testimonialCardOne */
+.testimonialCardOne {
+  background-image: url("/assets/testimonialOne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 378px;
+  height: 477px;
+  position: relative;
+}
+/* testimonialCardTwo */
+.testimonialCardTwo {
+  background-image: url("/assets/testimonialTwo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 378px;
+  height: 477px;
+  position: relative;
+}
+/* testimonialCardThree */
+.testimonialCardThree {
+  background-image: url("/assets/testimonialThree.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 378px;
+  height: 477px;
+  position: relative;
+  background-position: center top -45px;
+}
+/* testimonialCardContainer */
+.testimonialCardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 -45px 122px 153px;
+}
+/* emoji */
+.emoji {
+  font-size: 20px;
+}
+/* peacefulContainer */
+.peacefulContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 380px;
+  background-color: #fff;
+  padding: 16px 24px 16px 16px;
+}
+/* peacefulTitle */
+.peacefulTitle {
+  color: #1b3936;
+  font-family: "SwitzerVariable";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+/* peacefulDescription */
+.peacefulDescription {
+  color: #b9c3c1;
+  font-family: "SwitzerVariable";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+/* descriptionLowOpacity */
+.descriptionLowOpacity {
+  opacity: 30%;
+}
+/* iconOne */
+.iconOne {
+  background-image: url("/assets/Ellipse\ 25.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* iconTwo */
+.iconTwo {
+  background-image: url("/assets/EllipseGreen.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* testimonialIconContainer */
+.testimonialIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+/* ellipseIconContainer */
+.ellipseIconContainer {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 78px;
+}
+/* testimonial section css ends here */
+
+/* **********Footer section ************ */
+/* footer css start here */
+/* btnLets */
+.btnLets {
+  width: 200px;
+  height: 60px;
+  border: 1px solid #1b3936;
+  border-radius: 100%;
+  color: #1b3936;
+  text-align: justify;
+  font-family: "SwitzerVariable";
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 76px;
+  background: #fff;
+}
+/* footerContentContainer */
+.footerContentContainer {
+  padding-top: 95px;
+  background: #fff;
+  display: flex;
+  gap: 151px;
+  justify-content: center;
+  padding-bottom: 111px;
+}
+/* grab */
+.grab {
+  margin-top: 7px;
+}
+/* footerDesc */
+.footerDesc {
+  font-size: 16px;
+}
+/* aboutContainerParent */
+.aboutContainerParent {
+  min-width: 480px;
+
+  background-color: #75ff69;
+  position: relative;
+}
+/* aboutContainer */
+.aboutContainer {
+  padding: 104px 0 128px 124px;
+}
+/* aboutFooter */
+.aboutFooter {
+  line-height: 55px;
+}
+/* VectorStick */
+.VectorStick {
+  margin-right: -38px;
+}
+/* footerVectorContainer */
+.footerVectorContainer {
+  position: absolute;
+  right: 46px;
+  bottom: 52px;
+}
+/* random whiteColor */
+.whiteColor {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* roomsContainer */
+.roomsContainer {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+/* roomsContactContainer */
+.roomsContactContainer {
+  background-image: url("/assets/footerbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* roomsContactParent */
+.roomsContactParent {
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+  margin: 127px 0 74px 0;
+}
+/* footerMiddleContainer */
+.footerMiddleContainer {
+  display: flex;
+}
+/* footerListContainer */
+.footerListContainer {
+  display: flex;
+  justify-content: center;
+  padding: 19px 0 17px 0;
+  gap: 58px;
+  list-style: none;
+}
+/* footerListContainer a */
+.footerListContainer a {
+  text-decoration: none;
+}
+
+/* footer css ends here */
