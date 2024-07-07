@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #f9f9f9;
-}
+/* font  Oranienbaum  */
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
 
 /* font  SwitZerVariable*/
 @font-face {
@@ -19,6 +13,14 @@ body {
   font-family: "BoskaVariable";
   src: url("/Boska_Complete/Fonts/TTF/Boska-Variable.ttf") format("truetype");
   font-weight: 400 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
 }
 /* header css start here */
 /* headerChildren */
@@ -53,6 +55,9 @@ body {
   color: #75ff69;
   font-family: Oranienbaum;
   font-size: 28.523px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* GrindelwaldContainer css */
 .GrindelwaldContainer {
@@ -886,6 +891,7 @@ body {
 /* footerListContainer a */
 .footerListContainer a {
   text-decoration: none;
+  color: #1b3936;
 }
 
 /* footer css ends here */
